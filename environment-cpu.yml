@@ -1,0 +1,13 @@
+name: fastbook
+channels:
+    - fastai
+    - pytorch
+    - defaults
+dependencies:
+  - python>=3.6
+  - pytorch>=1.6
+  - cpuonly
+  - torchvision
+  - pip
+  - pip:
+    - -r file:requirements.txt
